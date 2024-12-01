@@ -14,12 +14,14 @@
   .about-header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #1976d2;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
   }
   
   .about-header p {
     font-size: 1.2rem;
-    color: #555;
+    color: #f5f5f5;
   }
   
   .profile-section {
@@ -39,17 +41,25 @@
   }
   
   .bio {
-    max-width: 600px;
+    max-width: 900px;
   }
   
   .bio h2 {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #333;
+    color: #333333;
+    font-weight: bold;
+  }
+  .bio p{
+    color: #f5f5f5;
   }
   
   .skills-section {
     margin: 40px 0;
+  }
+  .skills-section h2, .experience-section h2{
+    color: #333333;
+    font-weight: bold;
   }
   
   .skills-grid {
@@ -79,6 +89,7 @@
   
   .experience-section li {
     margin-bottom: 15px;
+    color: #f5f5f5;
   }
   
   @media (max-width: 768px) {

@@ -3,6 +3,14 @@
     padding: 50px;
   }
   
+  .home-container h1{
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+  }
+  .home-container p{
+    color: #f5f5f5;
+  }
   .profile-pic {
     width: 150px;
     height: 150px;
