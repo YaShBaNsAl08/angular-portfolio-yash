@@ -39,6 +39,7 @@
   
   .project-card img {
     max-width: 100%;
+    max-height: 200px;
     border-radius: 8px;
     margin-bottom: 15px;
   }
