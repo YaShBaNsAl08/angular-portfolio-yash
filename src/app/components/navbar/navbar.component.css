@@ -24,3 +24,11 @@
 .nav-link a:hover, .nav-link a:active{
     color: #ff6f61;
 }
+@media (max-width: 599px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+    ::ng-deep .mat-toolbar-single-row{
+        height: 62px !important;
+    }
+}
