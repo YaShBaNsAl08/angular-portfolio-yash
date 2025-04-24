@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./components/navbar/navbar.component";
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,12 @@ import { NavbarComponent } from "./components/navbar/navbar.component";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
+  ngOnInit(): void {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }
   title = 'portfolio';
 }
