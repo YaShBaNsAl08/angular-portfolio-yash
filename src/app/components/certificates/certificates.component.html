@@ -1,1 +1,19 @@
-<p>certificates works!</p>
+<div class="certificate-grid">
+    <mat-card
+      class="certificate-card"
+      *ngFor="let cert of certificates"
+      data-aos="fade-up"
+      [attr.data-aos-delay]="certificates.indexOf(cert) * 100"
+    >
+      <img mat-card-image [src]="cert.imageUrl" alt="{{ cert.title }}" />
+      <mat-card-content>
+        <h3>{{ cert.title }}</h3>
+        <p>{{ cert.platform }}</p>
+      </mat-card-content>
+      <mat-card-actions align="end">
+        <a mat-button color="primary" [href]="cert.link" target="_blank">
+          View Certificate
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
