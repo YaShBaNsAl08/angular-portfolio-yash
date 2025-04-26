@@ -34,6 +34,18 @@ export class CertificatesComponent implements OnInit{
       imageUrl: '',
     },
     {
+      title: 'Python Basic',
+      platform: 'HackerRank',
+      link: '',
+      imageUrl: '',
+    },
+    {
+      title: 'Angular Basic',
+      platform: 'HackerRank',
+      link: '',
+      imageUrl: '',
+    },
+    {
       title: 'Trailhead Ranger Badge',
       platform: 'Salesforce',
       link: '',
