@@ -37,3 +37,14 @@
     transform: scale(1.2);
   }
   
+  .resume-btn {
+    display: inline-block;
+    margin-top: 16px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .resume-btn:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(0, 174, 255, 0.7));
+  }
+  
