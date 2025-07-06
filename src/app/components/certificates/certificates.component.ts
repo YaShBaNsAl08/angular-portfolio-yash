@@ -34,6 +34,12 @@ export class CertificatesComponent implements OnInit{
       imageUrl: 'certificates/Angular(Basic).jpg',
     },
     {
+      title: 'Cyber Security',
+      platform: 'Forage',
+      link: 'https://drive.google.com/file/d/1cn_HWbpmlZx8Cjj8GSBap3T08p6Z16o_/view?usp=sharing',
+      imageUrl: 'certificates/Cyber security.png',
+    },
+    {
       title: 'Azure-204 Bootcamp',
       platform: 'CloudThat',
       link: 'https://drive.google.com/file/d/15uf_kFnFmJEaXp3-qRrv_hP4VH5dzsRH/view?usp=drive_link',
