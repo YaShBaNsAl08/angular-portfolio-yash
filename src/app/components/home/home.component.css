@@ -11,6 +11,9 @@
   .home-container p{
     color: #f5f5f5;
   }
+  #pic{
+    display: inline-grid;
+  }
   .profile-wrapper {
   display: inline-block;
   padding: 5px;
@@ -24,7 +27,15 @@
     border-radius: 50%;
     display: block;
   }
-  
+  .exp-tag {
+  display: inline-block;
+  color: #f5f5f5;
+  padding: 5px 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  }
   button {
     margin-top: 10px;
   }
