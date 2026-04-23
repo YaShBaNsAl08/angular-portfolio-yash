@@ -1,6 +1,6 @@
 :host{
     display: block;
-    background: linear-gradient(45deg, #ff4b6e, #ff8c8c, #e01e63, #b3003b);
+    background: linear-gradient(45deg, #020617, #0f172a, #14b8a6);
     background-size: 400% 400%;
     animation: gradientShift 15s ease infinite;
     

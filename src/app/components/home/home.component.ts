@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { RouterLink } from '@angular/router';
@@ -14,7 +14,7 @@ import * as AOS from 'aos';
 })
 export class HomeComponent implements OnInit{
 text='';
-f_text='A passionate Front-end Web Developer';
+f_text='Angular | React | Javascript | Typescript | APIs | Full-Stack Development';
 i=0;
 constructor(){
   this.typetext();
@@ -31,4 +31,13 @@ typetext(){
   },100);
 }
 }
+@HostListener('mousemove', ['$event'])
+onMouseMove(e: MouseEvent) {
+  const x = (e.clientX / window.innerWidth) * 100;
+  const y = (e.clientY / window.innerHeight) * 100;
+
+  document.documentElement.style.setProperty('--x', `${x}%`);
+  document.documentElement.style.setProperty('--y', `${y}%`);
+}
+
 }

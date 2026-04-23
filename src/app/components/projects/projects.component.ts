@@ -11,9 +11,27 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent {
   projects = [
     {
+      title: 'Tiptap Notes',
+      description:
+        'A real-time notes application with Firebase integration, enabling secure data storage, instant updates and seamless user experience.',
+      technologies: ['ReactJs', 'JavaScript','Firebase'],
+      liveDemo: 'https://tiptapnote.web.app/',
+      github: '',
+      image: 'Tiptap.png',
+    },
+    {
+      title: 'Text Tweakr',
+      description:
+        'Perform text transformations and analysis with a fast and user-friendly interface.',
+      technologies: ['ReactJs', 'JavaScript'],
+      liveDemo: 'https://drive.google.com/file/d/1Xrj8lZxqaVLCDNnts0Q6WcIb2_py6xLp/view?usp=drive_link',
+      github: 'https://github.com/YaShBaNsAl08/text-tweakr',
+      image: 'Text tweakr.png',
+    },
+    {
       title: 'To-Do List',
       description:
-        'The app is designed to simplify task management by allowing users to easily track, update, and organize their daily tasks.',
+        'Track and manage daily tasks with a clean, responsive UI and real-time updates.',
       technologies: ['Angular', 'TypeScript'],
       liveDemo: 'https://yashbansal08.github.io/todo-list/',
       github: 'https://github.com/YaShBaNsAl08/todo-list',
@@ -22,25 +40,16 @@ export class ProjectsComponent {
     {
       title: 'Investment Calculator',
       description:
-        'The app is designed to calculate the investment by allowing user to easily get know about their investments and returns.',
+        'Calculate investment returns instantly with dynamic inputs and real-time results.',
       technologies: ['Angular', 'TypeScript'],
       liveDemo: 'https://yashbansal08.github.io/Investment-Calculator/',
       github: 'https://github.com/YaShBaNsAl08/Investment-Calculator',
       image: 'investment.png',
     },
     {
-      title: 'Text Tweakr',
-      description:
-        'TextTweakr is a web application which provides a suite of text manipulation features, making it easy to transform and analyze text efficiently.',
-      technologies: ['ReactJs', 'JavaScript'],
-      liveDemo: 'https://drive.google.com/file/d/1Xrj8lZxqaVLCDNnts0Q6WcIb2_py6xLp/view?usp=drive_link',
-      github: 'https://github.com/YaShBaNsAl08/text-tweakr',
-      image: 'Text tweakr.png',
-    },
-    {
       title: 'Farewell Card',
       description:
-        'The Farewell Card Website offers creative, heartfelt farewells with sleek design and smooth animations.',
+        'Create personalized farewell messages with smooth animations and a modern design.',
       technologies: ['HTML', 'CSS'],
       liveDemo: 'https://yashbansal08.github.io/Farewell_MIT/',
       github: 'https://github.com/YaShBaNsAl08/Farewell_MIT',
@@ -49,7 +58,7 @@ export class ProjectsComponent {
     {
       title: 'Birthday Wish',
       description:
-        'A personalized birthday wish built using HTML, CSS, JavaScript, featuring a coundown timer, interactive carousel, festive animation, and background music to create a memorable and engaging experience.',
+        'Interactive birthday experience with countdown timer, animations and music for a memorable feel.',
       technologies: ['HTML', 'CSS','JavaScript'],
       liveDemo: 'https://yashbansal08.github.io/Birthday-Template/',
       github: 'https://github.com/YaShBaNsAl08/Birthday-Template',
@@ -58,7 +67,7 @@ export class ProjectsComponent {
     {
       title: 'Weather App',
       description:
-        'This weather application, developed using HTML, CSS, and JavaScript, offers a modern and user-friendly interface for accessing real-time weather information.',
+        'Get real-time weather updates with a clean, responsive and user-friendly interface.',
       technologies: ['HTML', 'CSS'],
       liveDemo: 'https://yashbansal08.github.io/Weather-App/',
       github: 'https://github.com/YaShBaNsAl08/Weather-App',
@@ -67,7 +76,7 @@ export class ProjectsComponent {
     {
       title: 'Calculator',
       description:
-        'Explore our interactive calculator, built with HTML5, CSS3, and JavaScript, offering sleek design and smooth functionality.',
+        'Interactive calculator with smooth UI and real-time calculations for a seamless user experience.',
       technologies: ['HTML', 'CSS'],
       liveDemo: 'https://yashbansal08.github.io/CALCULATOR/',
       github: 'https://github.com/YaShBaNsAl08/CALCULATOR',
@@ -76,7 +85,7 @@ export class ProjectsComponent {
     {
       title: 'Store Helper Project',
       description:
-        'A data analysis tool that provides customer insights to help businesses improve decision-making and boost revenue.',
+        'Analyze customer data to generate insights that improve decision-making and boost business revenue.',
       technologies: ['Python', 'Pandas', 'Data Analysis'],
       liveDemo: '',
       github: 'https://github.com/YaShBaNsAl08/STORE-HELPER',
@@ -85,7 +94,7 @@ export class ProjectsComponent {
     {
       title: 'Email Fraud Detection Tool',
       description:
-        'A desktop application built with Python to detect fraudulent emails in real time using machine learning.',
+        'Detect fraudulent emails in real-time using machine learning and intelligent pattern analysis.',
       technologies: ['Python', 'Naive Bayes', 'Tkinter'],
       liveDemo: '',
       github: 'https://github.com/YaShBaNsAl08/IBM_Intership',
