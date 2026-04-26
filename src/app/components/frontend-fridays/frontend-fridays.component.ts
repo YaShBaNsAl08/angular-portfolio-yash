@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-frontend-fridays',
@@ -11,11 +10,8 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class FrontendFridaysComponent implements OnInit {
 
-  constructor(private sanitizer: DomSanitizer) {
-    this.projects = this.projects.map(project => ({
-      ...project,
-      iframeUrl: this.sanitizer.bypassSecurityTrustResourceUrl(project.liveDemo)
-    }));
+  constructor() {
+  
   }
   ngOnInit(): void {
 
@@ -28,8 +24,7 @@ export class FrontendFridaysComponent implements OnInit {
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveDemo: 'https://yashbansal08.github.io/ABBL/',
       github: 'https://github.com/YaShBaNsAl08/ABBL',
-      image: '',
-      iframeUrl: null as SafeResourceUrl | null
+      image: 'FF/ABBL.png',     
     },
     {
       title: 'Animated Circular Progress Dashboard',
@@ -38,9 +33,17 @@ export class FrontendFridaysComponent implements OnInit {
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveDemo: 'https://yashbansal08.github.io/ACPD/',
       github: 'https://github.com/YaShBaNsAl08/ACPD',
-      image: '',
-      iframeUrl: null as SafeResourceUrl | null
+      image: 'FF/ACPD.png',      
     },
+    {
+      title: 'Scroll Progress Indicator',
+      description:
+        '',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveDemo: 'https://yashbansal08.github.io/SPI/',
+      github: 'https://github.com/YaShBaNsAl08/SPI',
+      image: 'FF/SPI.png',      
+    },  
     {
       title: 'Animated Gradient Buttons',
       description:
@@ -48,8 +51,7 @@ export class FrontendFridaysComponent implements OnInit {
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveDemo: 'https://yashbansal08.github.io/AGB/',
       github: 'https://github.com/YaShBaNsAl08/AGB',
-      image: '',
-      iframeUrl: null as SafeResourceUrl | null
+      image: 'FF/AGB.png',      
     },
     {
       title: 'Animated Gradient Border Card',
@@ -58,9 +60,35 @@ export class FrontendFridaysComponent implements OnInit {
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveDemo: 'https://yashbansal08.github.io/AGBC/',
       github: 'https://github.com/YaShBaNsAl08/AGBC',
-      image: '',
-      iframeUrl: null as SafeResourceUrl | null
-    }
+      image: 'FF/AGBC.png',      
+    },
+    {
+      title: 'Glass Weather Widget',
+      description:
+        '',
+      technologies: ['HTML', 'CSS'],
+      liveDemo: 'https://yashbansal08.github.io/GWW/',
+      github: 'https://github.com/YaShBaNsAl08/GWW',
+      image: 'FF/GWW.png',      
+    },
+    {
+      title: 'Liquid Fill Loader',
+      description:
+        '',
+      technologies: ['HTML', 'CSS'],
+      liveDemo: 'https://yashbansal08.github.io/LFL/',
+      github: 'https://github.com/YaShBaNsAl08/LFL',
+      image: 'FF/LFL.png',      
+    },
+    {
+      title: 'Pricing-Cards',
+      description:
+        '',
+      technologies: ['HTML', 'CSS'],
+      liveDemo: 'https://yashbansal08.github.io/Pricing-Cards/',
+      github: 'https://github.com/YaShBaNsAl08/Pricing-Cards',
+      image: 'FF/Pricing-Cards.png',      
+    },  
 
   ];
 
