@@ -45,6 +45,42 @@ export class FrontendFridaysComponent implements OnInit {
       image: 'FF/SPI.png',      
     },  
     {
+      title: 'Neumorphic Calculator',
+      description:
+        '',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveDemo: 'https://yashbansal08.github.io/NC/',
+      github: 'https://github.com/YaShBaNsAl08/NC',
+      image: 'FF/NC.png',      
+    },
+    {
+      title: 'Drag-and-Drop File Upload',
+      description:
+        '',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveDemo: 'https://yashbansal08.github.io/DAD/',
+      github: 'https://github.com/YaShBaNsAl08/DAD',
+      image: 'FF/DAD.png',      
+    },
+    {
+      title: 'Copy to Clipboard Feedback Button',
+      description:
+        '',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveDemo: 'https://yashbansal08.github.io/CCFB/',
+      github: 'https://github.com/YaShBaNsAl08/CCFB',
+      image: 'FF/CCFB.png',      
+    },
+    {
+      title: 'Inline Editable Text',
+      description:
+        '',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveDemo: 'https://yashbansal08.github.io/IET/',
+      github: 'https://github.com/YaShBaNsAl08/IET',
+      image: 'FF/IET.png',      
+    },
+    {
       title: 'Animated Gradient Buttons',
       description:
         '',
@@ -70,6 +106,24 @@ export class FrontendFridaysComponent implements OnInit {
       liveDemo: 'https://yashbansal08.github.io/GWW/',
       github: 'https://github.com/YaShBaNsAl08/GWW',
       image: 'FF/GWW.png',      
+    },
+    {
+      title: 'Testimonial Slider',
+      description:
+        '',
+      technologies: ['HTML', 'CSS'],
+      liveDemo: 'https://yashbansal08.github.io/Testimonial-Slider/',
+      github: 'https://github.com/YaShBaNsAl08/Testimonial-Slider',
+      image: 'FF/Testimonial-Slider.png',      
+    },
+    {
+      title: 'Neumorphic Toggle Switch',
+      description:
+        '',
+      technologies: ['HTML', 'CSS'],
+      liveDemo: 'https://yashbansal08.github.io/NTS/',
+      github: 'https://github.com/YaShBaNsAl08/NTS',
+      image: 'FF/NTS.png',      
     },
     {
       title: 'Liquid Fill Loader',
